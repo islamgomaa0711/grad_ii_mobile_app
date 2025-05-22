@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172639566626",
+    "project_id": "gard-project-mobile-app",
+    "storage_bucket": "gard-project-mobile-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172639566626:android:5adafea545b88bc72c437b",
+        "android_client_info": {
+          "package_name": "com.example.grad_ii_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbN_bExyNK6deuW46kyFXXqqxQkoOCjew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
