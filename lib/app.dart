@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:easy_localization/easy_localization.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 
 import 'theme_provider.dart';
 import 'welcome_screen.dart';
-import 'dashboard_screen.dart';
+
 
 class PillDispenserApp extends StatelessWidget {
   const PillDispenserApp({Key? key}) : super(key: key);
