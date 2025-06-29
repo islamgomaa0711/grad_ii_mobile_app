@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:easy_localization/easy_localization.dart';
+
 
 class MonitoringScreen extends StatelessWidget {
   const MonitoringScreen({super.key});
@@ -29,7 +29,7 @@ class MonitoringScreen extends StatelessWidget {
           children: [
             // Monitoring Title
             Text(
-              'monitoring_status'.tr(),  // Dynamic translation for "Monitoring Status"
+                // Dynamic translation for "Monitoring Status"
               style: GoogleFonts.poppins().copyWith(
                 fontSize: 22,
                 fontWeight: FontWeight.w600,
