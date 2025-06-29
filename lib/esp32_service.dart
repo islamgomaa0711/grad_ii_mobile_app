@@ -4,7 +4,7 @@ class ESP32Service {
 
 
   static Future<void> sendSchedule(String name, String dosage, String time) async {
-    final url = Uri.parse('http://$esp32Ip/setSchedule');
+    final ;
 
     try {
       final response = await http.post(
