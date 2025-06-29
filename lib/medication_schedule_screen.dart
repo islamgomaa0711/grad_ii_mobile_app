@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:google_fonts/google_fonts.dart';
-import 'esp32_service.dart';
+
 
 
 class MedicationScheduleScreen extends StatefulWidget {
@@ -123,8 +123,7 @@ class _MedicationScheduleScreenState extends State<MedicationScheduleScreen> {
                     TextField(
                       controller: _pillAmountController,
                       keyboardType: TextInputType.number,
-                      decoration: const InputDecoration(
-                        labelText: "Dosage (mg)",
+                      decoration: const InputDecoratio
                         prefixIcon: Icon(Icons.scale),
                         border: OutlineInputBorder(),
                       ),
